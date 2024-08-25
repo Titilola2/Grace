@@ -4,8 +4,8 @@ import Loading from "../loading";
 import Categories from "@/domain/categories";
 
 export const metadata: Metadata = {
-  title: "Narrative Pen | Categories",
-  description: "Narrative Pen",
+  title: "Grace Olafare | Categories",
+  description: "Grace Olafare",
   icons: {
     icon: [
       {

@@ -4,8 +4,8 @@ import Loading from "../loading";
 import Contacts from "@/domain/contact";
 
 export const metadata: Metadata = {
-  title: "Narrative Pen | Contacts",
-  description: "Narrative Pen",
+  title: "Grace Olafare | Contacts",
+  description: "Grace Olafare",
   icons: {
     icon: [
       {

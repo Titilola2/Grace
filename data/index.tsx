@@ -7,6 +7,7 @@ import book2 from "@/assets/images/book2.svg";
 import richbook from "@/assets/images/richbook.svg";
 import book from "@/assets/images/book1.svg";
 import billionaire from "@/assets/images/billionaire.png";
+import { FaGithub, FaLinkedin, FaInstagram,  FaFacebookF   } from "react-icons/fa";
 
 export const menu = [
   { name: "Home", url: "/" },
@@ -14,14 +15,17 @@ export const menu = [
     name: "Categories",
     url: "/categories/contemporary-romance",
     subPages: [
-      { name: "Contemporary romance", url: "/categories/contemporary-romance" },
-      { name: "Clean and Wholesome", url: "/categories/clean-and-wholesome" },
-      { name: "Children's Books", url: "/categories/children-books" },
+      { name: "Frontend", url: "/categories/frontend" },
+      { name: "Fullstack", url: "/categories/fullstack" },
+      { name: "Backend", url: "/categories/backend" },
+    
     ],
   },
-  { name: "About", url: "/about" },
-  { name: "Contacts", url: "/contacts" },
-  { name: "Amazon", url: "https://www.amazon.com/stores/Ashton-Grey/author/B0CCWVBC7N?ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true" },
+  { name: "Contact Me", url: "/contacts" },
+  {name:<FaGithub /> , url:"https://github.com/Titilola2"},
+  {name:<FaLinkedin /> , url:"https://github.com/Titilola2"},
+  {name:<FaInstagram  /> , url:"https://github.com/Titilola2"},
+  {name:< FaFacebookF /> , url:"https://github.com/Titilola2"},
 ];
 
 export const socialIcons = [

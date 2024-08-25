@@ -4,7 +4,7 @@ import Button from "@/components/button";
 import MoreBooks from "@/components/morebooks";
 import { useRouter } from "next/navigation";
 
-const ChildrenBooks = () => {
+const Frontend = () => {
   const router = useRouter();
 
   return (
@@ -25,4 +25,4 @@ const ChildrenBooks = () => {
   );
 };
 
-export default ChildrenBooks;
+export default Frontend;

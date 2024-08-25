@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import Loading from "@/app/loading";
-import CleanWholesome from "@/domain/categories/components/CleanWholesome";
+import Frontend from "@/domain/categories/components/Frontend";
 
 export const metadata: Metadata = {
-  title: "Narrative Pen | Categories | Clean and Wholesome",
-  description: "Clean n Wholesome",
+  title: "Grace | Categories | Children's Books",
+  description: "Children Books",
   icons: {
     icon: [
       {
@@ -21,11 +21,11 @@ export const metadata: Metadata = {
     ],
   },
 };
-export default function CleanandWholesome() {
+export default function ChildrensBook() {
   return (
     <Suspense fallback={<Loading />}>
       <main className="w-full">
-        <CleanWholesome />
+        <Frontend />
       </main>
     </Suspense>
   );

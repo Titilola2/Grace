@@ -98,9 +98,7 @@ const Contacts = () => {
           </form>
         </div>
       </div>
-      <div className="w-full mt-24">
-        <MoreBooks />
-      </div>
+   
     </section>
   );
 };

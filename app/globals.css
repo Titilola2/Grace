@@ -17,7 +17,8 @@
 } */
 
 body {
-background: #F0E1D3;
+background: white;
+
 }
 
 @layer utilities {

@@ -5,7 +5,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="py-8 w-full px-3 md:px-8 lg:px-24 xl:px-40">
+    <footer className="py-8 w-full px-3 md:px-8 lg:px-24 xl:px-40 bg-[#e0f2fe]">
       <div className="container mx-auto flex flex-col  items-center px-4 gap-6 w-full">
         <nav className="flex flex-wrap gap-4 lg:gap-16 md:justify-end w-full items-center">
           {menu

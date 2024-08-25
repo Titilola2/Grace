@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
-import Loading from "../loading";
-import About from "@/domain/about";
+import Loading from "@/app/loading";
+import Fullstack from "@/domain/categories/components/Fullstack";
 
 export const metadata: Metadata = {
-  title: "Narrative Pen | About",
-  description: "Narrative Pen",
+  title: "Grace | Categories | Contemporary Romance",
+  description: "Contemporary Romance",
   icons: {
     icon: [
       {
@@ -21,11 +21,11 @@ export const metadata: Metadata = {
     ],
   },
 };
-export default function AboutAuthor() {
+export default function Contemporary() {
   return (
     <Suspense fallback={<Loading />}>
       <main className="w-full">
-        <About />
+        <Fullstack />
       </main>
     </Suspense>
   );

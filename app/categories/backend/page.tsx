@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import Loading from "@/app/loading";
-import ContemporaryRomance from "@/domain/categories/components/ContemporaryRomance";
+import Backend from "@/domain/categories/components/Backend";
 
 export const metadata: Metadata = {
-  title: "Narrative Pen | Categories | Contemporary Romance",
-  description: "Contemporary Romance",
+  title: "Grace Olafare  | Categories | Clean and Wholesome",
+  description: "Clean n Wholesome",
   icons: {
     icon: [
       {
@@ -21,11 +21,11 @@ export const metadata: Metadata = {
     ],
   },
 };
-export default function Contemporary() {
+export default function CleanandWholesome() {
   return (
     <Suspense fallback={<Loading />}>
       <main className="w-full">
-        <ContemporaryRomance />
+        <Backend />
       </main>
     </Suspense>
   );

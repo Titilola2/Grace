@@ -5,7 +5,7 @@ import React from "react";
 import { useRouter } from "next/navigation";
 
 
-const CleanWholesome = () => {
+const Backend = () => {
     const router = useRouter();
 
   return (
@@ -26,4 +26,4 @@ const CleanWholesome = () => {
   );
 };
 
-export default CleanWholesome;
+export default Backend;
