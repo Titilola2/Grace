@@ -1,6 +1,10 @@
 import facebook from "@/assets/icons/facebook.svg"
 import twitter from "@/assets/icons/x.svg"
 import instagram from "@/assets/icons/instagram.svg"
+import Proj1 from "@/assets/images/Proj1.png";
+import Proj2 from "@/assets/images/Proj2.png";
+import Proj3 from "@/assets/images/Proj3.png";
+import Proj4 from "@/assets/images/Proj4.png";
 import bossy from "@/assets/images/bossy.svg";
 import rich from "@/assets/images/rich.svg";
 import book2 from "@/assets/images/book2.svg";
@@ -86,13 +90,21 @@ export const socialIcons = [
 
      export const images = [
        {
-         src: book2,
-         url: "https://www.amazon.com/One-Bossy-Tease-Enemies-off-limits-ebook/dp/B0CW1DWJ3P?ref_=ast_author_dp",
-       },
-       {
-         src: bossy,
-         url: "https://www.amazon.com/One-Bossy-Fake-Marriage-Billionaire-ebook/dp/B0CC3PCCRT?ref_=ast_author_dp",
-       },
+        src: Proj1,
+        url: "https://tobams.vercel.app/",
+      },
+      {
+        src: Proj2,
+        url: "https://stage2-ashen.vercel.app/",
+      },
+      {
+        src: Proj3,
+        url: "https://emin-test-theta.vercel.app/",
+      },
+      {
+        src: Proj4,
+        url: "https://test-beta-nine-59.vercel.app/",
+      },
      ];
 
      export const bookImages = [
