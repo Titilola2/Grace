@@ -27,9 +27,9 @@ export const menu = [
   },
   { name: "Contact Me", url: "/contacts" },
   {name:<FaGithub /> , url:"https://github.com/Titilola2"},
-  {name:<FaLinkedin /> , url:"https://github.com/Titilola2"},
-  {name:<FaInstagram  /> , url:"https://github.com/Titilola2"},
-  {name:< FaFacebookF /> , url:"https://github.com/Titilola2"},
+  {name:<FaLinkedin /> , url:"https://www.linkedin.com/in/graceolafare/"},
+  {name:<FaInstagram  /> , url:"https://www.instagram.com/topazglam"},
+  {name:< FaFacebookF /> , url:"https://web.facebook.com/olafare.titilola"},
 ];
 
 export const socialIcons = [

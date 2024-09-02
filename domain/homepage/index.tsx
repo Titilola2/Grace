@@ -14,8 +14,8 @@ const HomePage = () => {
       
       <AboutAuthor />
       <Banner />
-      {/* <MoreBooks />
-     <GetCopy />
+    <MoreBooks />
+      {/*  <GetCopy />
       <MostPopular />
       <Review />
       <NewsLetter/> */}

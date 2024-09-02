@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 export default function Category() {
   return (
     <Suspense fallback={<Loading />}>
-      <main className="w-full">
+      <main className="w-full ">
         <Categories />
       </main>
     </Suspense>

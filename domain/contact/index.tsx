@@ -29,7 +29,7 @@ const Contacts = () => {
 
     try {
       await sendEmail({
-        to: "kasi0305@gmail.com",
+        to: "oluwafunhmi@gmail.com",
         name: `${formData.firstName} ${formData.lastName}`,
         subject: "Client Contact Information",
         body: `<body>

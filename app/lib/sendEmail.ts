@@ -34,6 +34,7 @@ export const sendEmail = async ({
     try {
         const resolvedBody = await Promise.resolve(body);
         console.log('resolvedBody', resolvedBody)
+      
 
         const sendResult = await transport.sendMail({
             from: SMTP_EMAIL,
