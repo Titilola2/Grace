@@ -14,12 +14,12 @@ interface CarouselProps {
 const CarouselComponent: React.FC<CarouselProps> = ({ settings = {}, children }) => {
   const NextArrow: React.FC<any> = (props) => (
     <div {...props} className="absolute lg:top-1/2 top-[65%] right-1 lg:right-[-40px] transform -translate-y-1/2 z-10 cursor-pointer shadow-lg">
-      <Image src={next} alt="next" className="w-9 h-9 object-cover" loading="lazy" />
+      <Image src={next} alt="next" className="md:w-9 w-3 md:h-9 h-3 object-cover" loading="lazy" />
     </div>
   );
   const PrevArrow: React.FC<any> = (props) => (
     <div {...props} className="absolute lg:top-1/2 top-[65%] left-1 lg:left-[-40px] transform -translate-y-1/2 z-10 cursor-pointer shadow-lg">
-      <Image src={prev} alt="previous" className="w-9 h-9 object-cover" loading="lazy" />
+      <Image src={prev} alt="previous" className="md:w-9 w-3 md:h-9 h-3 object-cover" loading="lazy" />
     </div>
   );
 
