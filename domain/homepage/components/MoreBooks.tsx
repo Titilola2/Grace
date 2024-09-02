@@ -29,7 +29,7 @@ const MoreBooks = () => {
 
   return (
     <section className="w-full bg-white py-4 lg:py-[3rem] flex flex-col items-center justify-center gap-[2rem] lg:px-[8rem]  px-[1rem] sidebar">
-      <h1 className="font-custom text-center text-red-800 text-4xl font-bold ">Technology stack</h1>
+      <h1 className="font-custom text-center text-red-800 md:text-4xl text-xl font-bold ">Technology stack</h1>
       <div className="h-[30rem]  w-full  rounded-xl shadow-xl grid grid-cols-3 p-8 text-red-900 place-items-center justify-items-center items-center">
         <div className=""> <TiHtml5 className={`text-orange-700 ${isGlowing ? 'h-[5rem] w-[4rem]' : 'h-[3.5rem] w-[3.5rem]'}`} /></div>
         <div className=""> <IoLogoCss3 className={` text-amber-400 ${isGlowing ? 'h-[5rem] w-[4rem]' : 'h-[3.5rem] w-[3.5rem]'}`} /></div>

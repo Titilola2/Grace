@@ -21,7 +21,7 @@ const Banner = () => {
           {images.map((image, index) => (
             <Image onClick={() => router.push(image.url)} className="cursor-pointer" src={image.src} key={index} alt="image" />
           ))}
-        </CarouselComponent>*
+        </CarouselComponent>
       </div>
     </section>  
 

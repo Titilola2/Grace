@@ -9,15 +9,15 @@ const AboutAuthor = () => {
   const router = useRouter()
 
   return (
-    <section className="w-full px-[4rem] gap-6 lg:gap-12  flex flex-col lg:flex-row justify-between py-8 sidebar">
+    <section className="w-full md:px-[4rem] px-[2px] gap-6 lg:gap-12  flex flex-col lg:flex-row justify-between py-8 sidebar">
      
       <div className="w-full">
-        <h1 className="font-['Cardo'] text-5xl font-[800] tracking-[0.776px] leading-10 text-sky-900">Grace Olafare</h1>
+        <h1 className="font-['Cardo'] md:text-5xl text-xl font-[800] tracking-[0.776px] leading-10 text-sky-900">Grace Olafare</h1>
         <div className="border-b-2 w-9 border-red-900 mt-2 mb-4" />
         <div className="">
-          <span className="text-black text-opacity-70 text-xl font-medium">Hello</span>
+          <span className="text-black text-opacity-70 md:text-xl text-[8px] font-medium">Hello</span>
           <span className="text-black text-opacity-70 text-xl font-semibold"></span>
-          <span className="text-black text-opacity-70 text-xl font-normal">
+          <span className="text-black text-opacity-70 md:text-xl text-[8px] font-normal">
            
           , I'm Grace - a driven and self-taught developer with a passion for building exceptional digital experiences. I've honed my skills in a versatile tech stack, including Reactjs, Nextjs, Mongodb, Tailwindcss, and Nodejs, and have a working knowledge of Ruby on Rails, C, and Python.
 
