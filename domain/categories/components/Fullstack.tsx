@@ -19,20 +19,18 @@ const Fullstack = () => {
        
       </div>
     
-      <div className="bg-white w-full h-auto lg:px-[8rem] px-[1rem] lg:py-[4rem] flex flex-col sidebar">
-        <h1 className="text-2xl lg:text-4xl font-normal font-custom w-full my-3 text-center mt-8">PROJECTS </h1>
-
+      <div className="bg-white w-full h-auto lg:px-[8rem] px-[1rem] lg:py-[2rem] flex flex-col sidebar">
         <div className="w-full flex flex-col">
           <div className="flex flex-col lg:flex-row w-full gap-8 items-center">
             <Image className="w-full lg:w-[60%]" src={proj1} alt="books" />
             <div className="flex flex-col w-full gap-8">
-              <h1 className="font-custom text-4xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
-              <p className="font-semibold"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h1 className="font-custom text-4xl">Foodieland.</h1>
+              <p className="font-semibold"> A Culinary Paradise for All Tastes</p>
               <p>
-              Lorem Ipsum is a placeholder text commonly used in the design and printing industry. It's designed to be visually appealing and representative of typical text, without conveying any actual meaning. This helps designers and typographers focus on the layout and overall aesthetic of a document without being distracted by the content.
+              Foodieland is a vibrant food company dedicated to crafting delicious, high-quality meals across a wide variety of categories. Specializing in vegan, dessert, chocolate, and breakfast dishes, Foodieland is committed to satisfying diverse taste buds with creative, flavorful options. Whether you’re craving plant-based meals, decadent sweets, or a hearty breakfast to start your day, Foodieland offers something for everyone. With an emphasis on using fresh, nutritious ingredients, Foodieland makes it easy to enjoy a wide range of cuisines, expertly tailored for every food lover.
               </p>
               <div>
-                <Button onClick={() => router.push("https://www.amazon.com/One-Bossy-Fake-Marriage-Billionaire-ebook/dp/B0CC3PCCRT?ref_=ast_author_dp")} title="Order Now" width="200px" height="55px" fontSize="24px" />
+                <Button onClick={() => router.push("https://tobams.vercel.app/")} title="View Live" width="200px" height="55px" fontSize="24px" />
               </div>
             </div>
           </div>
@@ -41,16 +39,16 @@ const Fullstack = () => {
         <div className="flex flex-col lg:flex-row w-full gap-8 my-[10rem] items-center">
          
           <div className="flex flex-col w-full gap-8">
-            <h1 className="font-custom text-4xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  </h1>
-            <h2 className="font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing elit..</h2>
+            <h1 className="font-custom text-4xl">ECHOMAX  </h1>
+            <h2 className="font-semibold">Your Ultimate Destination for Premium Headsets</h2>
             <p>
-            Lorem Ipsum is a placeholder text commonly used in the design and printing industry. It's designed to be visually appealing and representative of typical text, without conveying any actual meaning. This helps designers and typographers focus on the layout and overall aesthetic of a document without being distracted by the content.
+            Echomax is a leading e-commerce company specializing in high-quality headsets designed to elevate your audio experience. Whether you need headsets for gaming, music, work, or everyday use, SoundWave offers a diverse selection to meet every need. From noise-canceling headphones to wireless earbuds, each product is crafted with cutting-edge technology and superior comfort. At SoundWave, we’re committed to delivering exceptional sound quality, style, and durability, ensuring you find the perfect headset for any occasion. Experience audio like never before with SoundWave, your trusted source for premium headsets.
             </p>
             <div>
-              <Button onClick={() => router.push("https://www.amazon.com/One-Bossy-Tease-Enemies-off-limits-ebook/dp/B0CW1DWJ3P?ref_=ast_author_dp")} title="Order Now" width="200px" height="55px" fontSize="24px" />
+              <Button onClick={() => router.push("https://stage2-ashen.vercel.app/")} title="View Live" width="200px" height="55px" fontSize="24px" />
             </div>
           </div>
-          <Image className="w-full lg:w-[70%]" src={proj2} alt="books" />
+          <Image className="w-full lg:w-[60%]" src={proj2} alt="books" />
         </div>
        
       </div>
